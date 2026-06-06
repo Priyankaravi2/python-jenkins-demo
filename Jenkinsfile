@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "python-jenkins"
+        IMAGE_NAME = "pythonjenkins-project"
         DOCKER_HUB = "priyankaravir"
         BUILD_TAG = "${BUILD_NUMBER}"
     }
